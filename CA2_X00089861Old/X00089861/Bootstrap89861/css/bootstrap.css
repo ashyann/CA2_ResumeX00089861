@@ -4633,10 +4633,8 @@ a.list-group-item.active > .badge,
 .jumbotron {
   padding: 30px 15px;
   margin-bottom: 30px;
-    text-align: center;
-    color: #fff;
-    /*background: #18bc9c;*/
-	background: #3FB8AF;
+  color: inherit;
+  background-color: #ecf0f1;
 }
 .jumbotron h1,
 .jumbotron .h1 {

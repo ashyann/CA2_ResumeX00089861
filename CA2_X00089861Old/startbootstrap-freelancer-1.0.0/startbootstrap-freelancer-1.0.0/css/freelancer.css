@@ -16,11 +16,6 @@ p.small {
     font-size: 16px;
 }
 
-/* http://www.tutorialrepublic.com/codelab.php?topic=bootstrap&file=accordion */
-.bs-example{
-    margin: 20px;
-}
-
 a,
 a:hover,
 a:focus,
@@ -30,27 +25,16 @@ a.active {
     color: #18bc9c;
 }
 
-#contact{
-	background: #FDE3A7;
-}
-
 h1,
-h2
-{
-	text-transform: uppercase;
-	font: 10px/1.7em "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
-	/* font-family: Arial,Helvetica,Geneva,Swiss,SunSans-Regular; */
-}
-,
+h2,
 h3,
 h4,
 h5,
-h6
-    /* text-transform: uppercase; */
-	/* font-family: Arial,Helvetica,Geneva,Swiss,SunSans-Regular; */
-/*     font-family: Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
-    font-weight: 700; */
-
+h6 {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
 
 hr.star-light,
 hr.star-primary {
@@ -98,11 +82,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    /*background: #18bc9c;*/
-	/* background: #3FB8AF; */
-	/* background: #96F0FF; */
-	
-	background: #68C3A3;
+    background: #18bc9c;
 }
 
 header .container {
@@ -118,10 +98,9 @@ header img {
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
-	font: 12px/18px "Lucida Grande", Arial, Verdana, sans-serif; 
-	/* font-family: Avant Garde, Avantgarde, Avant Garde, CenturyGothic, AppleGothic, sans-serif; */
-    /* font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif; */
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
+    font-weight: 700;
 }
 
 header .intro-text .skills {
@@ -136,8 +115,6 @@ header .intro-text .skills {
     }
 
     header .intro-text .name {
-	font: "Lucida Grande", Arial, Verdana, sans-serif; 
-		/* font-family: Avant Garde, Avantgarde, Avant Garde, CenturyGothic, AppleGothic, sans-serif; */
         font-size: 4.75em;
     }
 
@@ -172,10 +149,8 @@ header .intro-text .skills {
 
 .navbar {
     text-transform: uppercase;
-	background-color: #65C6BB;
-	color: #333;
-	font: 12px/18px "Lucida Grande", Arial, Verdana, sans-serif; 
-    /* font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif; */
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
 }
 
 .navbar a:focus {
@@ -195,13 +170,6 @@ header .intro-text .skills {
     border: 0;
 }
 
-.progress
-{
-	/* margin-top: 10px; */
-	padding: 0 20px 0 7px;
-	line-height: 200px;
-}
-
 section {
     padding: 100px 0;
 }
@@ -213,56 +181,7 @@ section h2 {
 
 section.success {
     color: #fff;
-	/* background: #53BCDE; */
-	/* background: #DE5064; */
-    /* background: #EE3C3C; */
-	background: #18bc9c;
-	
-	/* background: #AB526B; */
-}
-
-section.about {
-	color: #333;
-	background: #ecf0f1;
-	
-	/* background: #2B7B84; turquoisy font*/ 
-	/*background: #BCA297;Turquoise*/
-}
-
-section.education {
-	color: #333;
-	background: #A2DED0;
-}
-
-section.projects{
-	color: #fff;
-	/* MALIBU */
-	background: #6BB9F0;
-	/* background: #C5CEAE; */
-}
-
-section.workexp
-{
-	color: #333;
-	background: #ecf0f1;
-
-/* 	color: #fff;
-	background: #3A5278; */
-	/*background: #53BCDE;*/
-}
-
-section.hobbies {
-	color: #333;
-	background: #F1A9A0;
-	/* background: #0064FF; */
-	/* background: #3EAEB0; blue */
-	/*background: #6BE7CB;*/
-	/* background: #C8BCDE; */
-}
-
-section.skills {
-	background: #DCC6E0;
-	color: #333;
+    background: #18bc9c;
 }
 
 @media(max-width:767px) {
@@ -416,8 +335,7 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-	background-color: #BE90D4;
-    /* background-color: #2c3e50; */
+    background-color: #2c3e50;
 }
 
 footer .footer-col {
@@ -426,8 +344,7 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-	background-color: #BE90D4;
-    /* background-color: #233140; */
+    background-color: #233140;
 }
 
 .btn-social {
@@ -449,7 +366,7 @@ footer .footer-below {
 
 .scroll-top {
     z-index: 1049;
-   /*  position: fixed; */
+/*     position: fixed; */
     right: 2%;
     bottom: 2%;
     width: 50px;
@@ -473,7 +390,7 @@ footer .footer-below {
     min-height: 100%;
     border: 0;
     border-radius: 0;
-    text-align: left;
+    text-align: center;
     background-clip: border-box;
     -webkit-box-shadow: none;
     box-shadow: none;
